@@ -97,7 +97,7 @@ function displayIsInClientInfo() {
 function registerButtonHandlers() {
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
-            url: 'http://thismysecret.42web.io/', // Isi dengan Endpoint URL aplikasi web Anda
+            url: 'https://harianku.herokuapp.com/', // Isi dengan Endpoint URL aplikasi web Anda
             external: true
         });
     });
